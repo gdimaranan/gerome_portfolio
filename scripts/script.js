@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
   button.addEventListener('click', function() {
       const link = document.createElement('a');
       link.href = '../CV_Gerome_Dimaranan.pdf'; // Replace with the actual path to your CV file
-      link.download = 'Gerome_Dimaranan.pdf'; // The name of the downloaded file
+      link.download = 'CV_Gerome_Dimaranan.pdf'; // The name of the downloaded file
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
